@@ -198,14 +198,14 @@ nav {
 /* ── SECTION COMMON ── */
 section { padding: 120px 40px; }
 
-.section-head { text-align: center; max-width: 640px; margin: 0 auto 72px; }
+.section-head { text-align: center; max-width: 720px; margin: 0 auto 80px; }
 .section-tag {
-  font-size: 0.75rem; font-weight: 700; letter-spacing: 3px;
-  text-transform: uppercase; color: var(--accent-light); margin-bottom: 16px;
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 3.5px;
+  text-transform: uppercase; color: var(--accent-light); margin-bottom: 24px;
 }
 .section-tag-tight { margin-bottom: 16px; }
-.section-head h2 { font-size: clamp(2rem,4vw,3rem); font-weight: 800; letter-spacing: -1px; margin-bottom: 20px; }
-.section-head p { color: var(--text-dim); font-size: 1.05rem; line-height: 1.7; }
+.section-head h2 { font-size: clamp(2rem,4vw,3rem); font-weight: 800; letter-spacing: -1px; margin-bottom: 28px; }
+.section-head p { color: var(--text-dim); font-size: 1.15rem; line-height: 1.8; }
 
 /* ── SERVICES ── */
 .services-grid {
@@ -473,7 +473,7 @@ footer { padding: 60px 40px 36px; border-top: 1px solid rgba(0,0,0,0.08); }
   .contact-item h4 { font-size: 0.9rem; }
   .contact-item p { font-size: 0.85rem; }
   .stats-bar { padding: 0 12px; margin-top: -8px; }
-  .stats-inner { padding: 16px; grid-template-columns: 1fr; gap: 12px; }
+  .stats-inner { padding: 16px; grid-template-columns: repeat(2,1fr); gap: 12px; }
   .stat-number { font-size: 2rem; }
   .stat-label { font-size: 0.75rem; }
   .process-grid { grid-template-columns: 1fr; gap: 12; }
